@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "GothamRounded-Book";
+  src: url("./GothamRounded-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.42857;
+}
+
+*, button, input, optgroup, select, textarea {
+  font-family: "GothamRounded-Book";
+  font-size: 12pt;
+}
